@@ -1,8 +1,11 @@
 streamlit
 python-dotenv
 pymongo
+streamlit-cookies-manager
+requests
 pandas
 plotly
+numpy
 
 
 
