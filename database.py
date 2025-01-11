@@ -1,8 +1,15 @@
+from dotenv import load_dotenv
 from pymongo import MongoClient
 import bcrypt
+import os
+
+# Load environment variables
+load_dotenv()
+
+EcobuddyDB=os.getenv("EcobuddyDB")
 
 # MongoDB connection
-client = MongoClient("***REMOVED***")
+client = MongoClient(EcobuddyDB)
 db = client["user_auth"]
 users_collection = db["users"]
 
