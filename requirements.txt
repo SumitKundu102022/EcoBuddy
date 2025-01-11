@@ -2,6 +2,7 @@ streamlit
 python-dotenv
 pymongo
 streamlit-cookies-manager
+bcrypt
 requests
 pandas
 plotly
